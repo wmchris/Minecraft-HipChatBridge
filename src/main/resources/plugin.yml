@@ -1,0 +1,8 @@
+name: HipChatBridge
+main: net.mahagon.hipchatbridge.HipChatBridge
+author: Mahagon
+prefix: HipChatBridge
+desciption: Syncs Herochat rooms with Hipchat rooms.
+depend: [Herochat]
+softdepend: [pTickets]
+version: 1.0.1
