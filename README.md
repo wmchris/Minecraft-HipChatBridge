@@ -1,17 +1,17 @@
 # HipChatBridge
 
-##Dependencies
+## Dependencies
 * [bukkit](https://bukkit.org/)/[spigot](https://www.spigotmc.org/)/[paperspigot](https://aquifermc.org/) Server
 * [Herochat](https://www.spigotmc.org/resources/34305/) or [Herochat (old)](https://www.spigotmc.org/resources/19264/)
 * A server hosting [Atlassian Hipchat](https://www.hipchat.com)
 
-##Installation
+## Installation
 * Create one [auth token](https://developer.atlassian.com/hipchat/guide/hipchat-rest-api/api-access-tokens) in Hipchat for every room you want to sync
 * Copy the hipchatbridge.jar into the plugin folder of your minecraft server
 * Start the server
 
-##Config
-###Herochat Syntax
+## Config
+### Herochat Syntax
 ```
 Global: <- Name of the Herochat channel
   active: true <- activate this one if you want to sync that channel
@@ -22,7 +22,7 @@ Global: <- Name of the Herochat channel
   send: true <- should be active if you want to send the chat from your minecraft server to hipchat
   receive: true <- not yet implemented :(
   ```
-###Command Syntax
+### Command Syntax
   ```
 /ticket create:
   active: true <- activate this one if you want to send this command input to hipchat
@@ -34,7 +34,7 @@ Global: <- Name of the Herochat channel
   prefix: new ticket <- chat prefix in hipchat
   notify: true <- aktivate sound notifications here
   ```
-###Example
+### Example
 ```
 Global:
   active: true
