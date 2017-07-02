@@ -24,7 +24,7 @@ Global: <- Name of the Herochat channel
   ```
 ### Command Syntax
   ```
-/ticket create:
+/ticket create: <- Command, don't forget the / :)
   active: true <- activate this one if you want to send this command input to hipchat
   auth_token: df32fug238zgf32zvfz23v8zgr23r23r32t2334fj <- your auth token
   url: https://chat.mahagon.net/v2/room/4/notification <- your hipchat room url
