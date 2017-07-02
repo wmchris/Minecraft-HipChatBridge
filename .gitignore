@@ -38,6 +38,7 @@ target
 # Repository #
 ##############
 .git
+/repo
 
 # Logging #
 ###########

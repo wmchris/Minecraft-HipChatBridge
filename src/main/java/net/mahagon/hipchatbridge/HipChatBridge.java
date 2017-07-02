@@ -18,7 +18,7 @@ public class HipChatBridge extends JavaPlugin {
             if (config.getConfigurationSection("room 1") == null) {
                 config.addDefault("room 1.active", false);
                 config.addDefault("room 1.auth_token", "INSERTYOURTOKENHERE");
-                config.addDefault("room 1.url", "https://hipchat.mahagon.net/v2/room/7/notification");
+                config.addDefault("room 1.url", "https://chat.mahagon.net/v2/room/7/notification");
                 config.addDefault("room 1.color", "grey");
                 config.addDefault("room 1.notify", false);
                 config.addDefault("room 1.send", true);
@@ -27,7 +27,7 @@ public class HipChatBridge extends JavaPlugin {
             if (config.getConfigurationSection("/pe new") == null) {
                 config.addDefault("/pe new.active", false);
                 config.addDefault("/pe new.auth_token", "INSERTYOURTOKENHERE");
-                config.addDefault("/pe new.url", "https://hipchat.mahagon.net/v2/room/7/notification");
+                config.addDefault("/pe new.url", "https://chat.mahagon.net/v2/room/7/notification");
                 config.addDefault("/pe new.color", "yellow");
                 config.addDefault("/pe new.min_arguments", 1);
                 config.addDefault("/pe new.prefix", "New ticket");
