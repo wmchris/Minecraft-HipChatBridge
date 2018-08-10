@@ -15,8 +15,8 @@
 ```
 Global: <- Name of the Herochat channel
   active: true <- activate this one if you want to sync that channel
-  auth_token: f3298h3fu2h39ruh2fujb2hfbzhfIBSDFqwfqwffq3 <- your auth token
-  url: https://chat.mahagon.net/v2/room/5/notification <- your hipchat room url
+  auth_token: a124124123123131231223daaa <- your auth token
+  url: https://example/v2/room/5/notification <- your hipchat room url
   color: gray <- use the US spelling. Hipchat doesn't like for example grey ;)
   notify: false <- aktivate sound notifications here
   send: true <- should be active if you want to send the chat from your minecraft server to hipchat
@@ -26,8 +26,8 @@ Global: <- Name of the Herochat channel
   ```
 /ticket create: <- Command, don't forget the / :)
   active: true <- activate this one if you want to send this command input to hipchat
-  auth_token: df32fug238zgf32zvfz23v8zgr23r23r32t2334fj <- your auth token
-  url: https://chat.mahagon.net/v2/room/4/notification <- your hipchat room url
+  auth_token: a124124123123131231223daaa <- your auth token
+  url: https://example/v2/room/4/notification <- your hipchat room url
   color: yellow <- use the US spelling. Hipchat doesn't like for example grey ;)
   min_arguments: 1 <- minimum of arguments, so that **/ticket create** doesnt send a message to hipchat
                         , but **/ticket create i need help** does. can be deactivated with **-1**
@@ -38,24 +38,24 @@ Global: <- Name of the Herochat channel
 ```
 Global:
   active: true
-  auth_token: f3298h3fu2h39ruh2fujb2hfbzhfIBSDFqwfqwffq3
-  url: https://chat.mahagon.net/v2/room/5/notification
+  auth_token: TOKEN
+  url: https://ROOM-NOTIFICATION
   color: gray
   notify: false
   send: true
   receive: true
 Support:
   active: true
-  auth_token: df32fug238zgf32zvfz23v8zgr23r23r32t2334fj
-  url: https://chat.mahagon.net/v2/room/4/notification
+  auth_token: TOKEN
+  url: https://ROOM-NOTIFICATION
   color: green
   notify: false
   send: true
   receive: true
 /ticket create:
   active: true
-  auth_token: df32fug238zgf32zvfz23v8zgr23r23r32t2334fj
-  url: https://chat.mahagon.net/v2/room/4/notification
+  auth_token: TOKEN
+  url: https://ROOM-NOTIFICATION
   color: yellow
   min_arguments: 1
   prefix: new ticket
